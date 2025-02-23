@@ -6,7 +6,7 @@ const hill5 = document.getElementById('hill5');
 
 window.addEventListener('scroll', () => {
     const value = window.scrollY;
-    const maxScroll = 700; // Adjust as needed
+    const maxScroll = 700; 
 
     if (value > maxScroll) {
         window.scrollTo(0, maxScroll);
